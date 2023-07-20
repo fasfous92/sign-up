@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    width:100%;
+    font-family: 'Advent Pro';font-size: 22px;
+   
+}
+
+
+
+.page{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid blue;
+*/
+}
+#logo, .second> p{
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    top: 12.2rem;
+    color: white;
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.left{
+    flex: 1;
+
+}
+
+
+.right{
+    flex: 2;
+   
+
+    display: flex;
+    flex-direction: column;
+}
+
+.right>* {
+    flex: 1.25;
+    background: #42584a;
+    padding: 1%;
+    
+}
+
+.mid {
+    flex: 1;
+    background: #c9c8c8;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    flex: 5;
+    display: flex;
+    gap: 1%;
+
+}
+
+form > div {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.band{
+    position: absolute;
+    width: 100%;
+    background: #afadae;
+    opacity: 0.4;
+    top: 12.5rem;
+    height: 7%;
+}
+
+button{
+    background: #cc8e2a;
+    border-radius: 8px;
+    height: 30px;
+    font-family: 'Advent Pro';font-size: 18px;
+}
+
+a, a:active {
+    color: black;
+    text-decoration: none;
+
+
+
+}
