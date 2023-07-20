@@ -32,40 +32,45 @@
                 </div>
                 <div class="second" style="flex:1;">
                     <img  id="logo" src="Crescent-Moon.png" >
-                    <p style="left: 17rem;color: black; top: 11.7rem; font-style: italic; font-weight: bold;">Oriental Escape</p>
+                    <p style="left: 17rem;color: black; top: 11.4rem; font-style: italic; font-weight: bold;">Oriental Escape</p>
                 </div>
             </div>
             <div class="mid">
-                <h4 style="flex: 1;">Join our Network for a wonderful journey.</h4>
+                <div style="flex: 1; color: black;">
+                    <h4 >Join our Network for a wonderful journey.</h4>
+                </div>
                 <form action="#" method="post">
-                    <div>
-                        <label for="first_name">First Name</label>
-                        <input type="text" required>
+                    <div style="display: flex; gap: 2%; ">
+                        <div>
+                            <label for="first_name">First Name</label>
+                            <input type="text" required>
                         
-                        <label for="email">Email</label>
-                        <input type="text" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" >
-
-                        <label for="Passeword">Passeword</label>
-                        <input type="text" required minlength="8">
+                            <label for="email">Email</label>
+                            <input type="text" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" >
+                            <label for="Passeword">Passeword</label>
+                            <input type="text" required minlength="8">
+                        </div>
+                        <div>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" required>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" required>
+                            <label>Confirm Passeword</label>
+                            <input type="text" required>
+                        
+                        </div>
                     </div>
-                    <div style="gap: 1%;">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" required>
-    
-                        <label for="phone_number">Phone Number</label>
-                        <input type="text" required>
 
-                        <label>Confirm Passeword</label>
-                        <input type="text" required>
-                        <br>
+                    <div class="button">
                         <button type="submit"> Create Account </button>
+
                     </div>
                     
 
                 </form>
             </div>
 
-            <div class="bottom" style="text-align: end; padding-right: 2%;">
+            <div style="padding-right: 2%;">
                 <p style="color: whitesmoke;">Already have an account? <a href="index.html">Login</a></p>
             </div>
 

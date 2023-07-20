@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     width:100%;
     font-family: 'Advent Pro';font-size: 22px;
+    color:  #c9c8c8;
    
 }
 
@@ -18,7 +19,7 @@ html, body {
     position: absolute;
     height: 8%;
     width: 8%;
-    top: 12.2rem;
+    top: 11.8rem;
     color: white;
 }
 
@@ -52,7 +53,7 @@ img{
 
 .mid {
     flex: 1;
-    background: #c9c8c8;
+    /*background: #c9c8c8;*/
     padding-bottom: 2%;
     padding-right: 2%;
     padding-left: 2%;
@@ -63,14 +64,20 @@ img{
 form {
     flex: 5;
     display: flex;
-    gap: 1%;
+    gap: 5%;
+    flex-direction: column;
 
 }
 
 form > div {
     flex:1;
-    display: flex;
-    flex-direction: column;
+    
+}
+
+form > div > div {
+    display: flex; 
+    flex-direction: column; 
+    flex: 1;
 }
 
 .band{
@@ -78,7 +85,7 @@ form > div {
     width: 100%;
     background: #afadae;
     opacity: 0.4;
-    top: 12.5rem;
+    top: 12rem;
     height: 7%;
 }
 
@@ -86,6 +93,7 @@ button{
     background: #cc8e2a;
     border-radius: 8px;
     height: 30px;
+    width: 30%;
     font-family: 'Advent Pro';font-size: 18px;
 }
 
